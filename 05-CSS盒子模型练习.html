@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>产品模块</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .box {
+            width: 300px;
+            height: 480px;
+            border: 1px solid #000;
+            background-color: #fff;
+            margin: 100px auto 0;
+        }
+
+        .box img {
+            /* 只设置宽度和box一致，height会等比缩放 */
+            width: 100%;
+        }
+
+        .review {
+            /* border-style: dashed; */
+            /* 高度固定,里面文本段数不影响下面一个box */
+            height: 120px;
+            font-size: 14px;
+            /* 内框左右空20px */
+            padding: 0 20px;
+            margin-top: 20px;
+        }
+
+        .appraise {
+            /* border-style: dashed; */
+            font-size: 12px;
+            padding: 0 20px;
+            margin-top: 20px;
+            color: #999;
+        }
+
+        .info {
+            /* border-style: dashed; */
+            font-size: 12px;
+            padding: 0 20px;
+            margin-top: 20px;
+
+        }
+
+        .info h4 {
+            display: inline-block;
+            font-weight: 400;
+
+        }
+
+        .info span {
+            color: orange;
+            font-weight: 600;
+        }
+
+        .info em {
+            font-style: normal;
+            color: #ebe4e0;
+            margin: 0 6px 0 10px;
+        }
+        .info a{
+            font-size: 16px;
+            text-decoration: none;
+            color: #000;
+        }
+        .info a:hover{
+            color: rgb(27, 174, 93);
+            font-weight: 800;
+        }
+        .newsflash{
+            width: 300px;
+            height: 200px;
+            border: 1px solid #000;
+            background-color: #fff;
+            margin: 30px auto 0;
+        }
+        .newsflash h3{
+            font-size: 16px;
+            /* padding: 10px 20px 0 10px; */
+            padding: 10px 20px;
+            border-bottom: 1px dotted #ccc;
+            font-weight: 400;
+        }
+        .link{
+            /*  去掉list前面圆点 */
+            list-style: none;
+        }
+        .link li{
+            /* border-style: dashed; */
+            height: 20px;
+            line-height: 20px;
+            margin: 5px 0;
+            padding: 0 20px;
+        }
+        .link a{
+            display: block;
+            font-size: 14px;
+            text-decoration: none;
+            color: #000;
+        }
+        .link a:hover{
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <img src="img/map.jpg" alt="test">
+        <p class="review">产品对方是否全额付清无法秋风秋风全额付清发泡剂破解</p>
+        <div class="appraise"> 来自1000000的评价</div>
+        <div class="info">
+            <!-- 这里用h4是因为语义是标题的意思,使用对应语义的标题可以更好表达 -->
+            <h4>
+                <a href="#">分为氛围分为耳机</a>
+            </h4>
+            <em>|</em>
+            <span>99.9元</span>
+        </div>
+    </div>
+    <div class="newsflash">
+        <h3>品优购快报</h3>
+        <ul class="link">
+            <li><a href="#">【特惠】 爆款耳机5折！</a></li>
+            <li><a href="#">【特惠】 爆款耳机5折！</a></li>
+            <li><a href="#">【特惠】 爆款耳机5折！</a></li>
+            <li><a href="#">【特惠】 爆款耳机5折！</a></li>
+            <li><a href="#">【特惠】 爆款耳机5折！</a></li>
+        </ul>
+    </div>   
+</body>
+
+</html>

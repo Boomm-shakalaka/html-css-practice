@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <h3>青春不常在，抓紧谈恋爱</h3>
+    <form action="#" method="post" name="register">
+        <!--border用于显示边框，便于布局-->
+        <table width="500" border="1">
+            <tr>
+                <td>性别</td>
+                <td>
+                    <input type="radio" name="gender" id="gender-male" />
+                    <label for="gender-male">男</label>
+                    <input type="radio" name="gender" id="gender-female" />
+                    <label for="gender-female">女</label>
+                </td>
+            </tr>
+            <tr>
+                <td>生日</td>
+                <td>
+                    <select>
+                        <option value="0000" selected="selected">--请选择年--</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                    </select>
+                    <select>
+                        <option value="0000" selected="selected">--请选择月--</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                    </select>
+                    <select>
+                        <option value="0000" selected="selected">--请选择日--</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>所在地</td>
+                <td><input type="text" name="area" /></td>
+            </tr>
+            <tr>
+                <td>婚姻情况</td>
+                <td>
+                    <input type="radio" name="marriage" id="marriage-unmarried" />
+                    <label for="marriage-unmarried">未婚</label>
+                    <input type="radio" name="marriage" id="marriage-married" />
+                    <label for="marriage-married">已婚</label>
+                    <input type="radio" name="marriage" id="marriage-divorced" />
+                    <label for="marriage-divorced">离异</label>
+                </td>
+            </tr>
+            <tr>
+                <td>学历</td>
+                <td><input type="text" name="education" /></td>
+            </tr>
+            <tr>
+                <td>喜欢类型</td>
+                <td>
+                    <input type="checkbox" name="type" id="type-art" />
+                    <label for="type-art">文艺</label>
+                    <input type="checkbox" name="type" id="type-sport" />
+                    <label for="type-sport">运动</label>
+                    <input type="checkbox" name="type" id="type-music" />
+                    <label for="type-music">音乐</label>
+                    <input type="checkbox" name="type" id="type-travel" />
+                    <label for="type-travel">旅游</label>
+            </tr>
+            <tr>
+                <td>自我介绍</td>
+                <td><textarea rows="3" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="免费注册" \>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox">我同意注册
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <a href="#">我是会员，立即登录</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <h5>我承诺</h5>
+                    <ul>
+                        <li>不得在本网站发布任何违法信息</li>
+                        <li>不得在本网站发布任何色情信息</li>
+                        <li>不得在本网站发布任何虚假信息</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>

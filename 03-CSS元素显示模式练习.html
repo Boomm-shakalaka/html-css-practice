@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简单版侧边栏</title>
+    <style>
+        a {
+            display: block;
+            width: 200px;
+            height: 50px;
+            background-color: #0505059a;
+            text-decoration: none;
+            color: #FFF;
+            font-size: 15px;
+            /* 空两格字符 */
+            text-indent: 2em;
+            /* line-height=height垂直居中 */
+            line-height: 50px;
+        }
+
+        a:hover {
+            background-color: #e4bf5a;
+            color: #a37171;
+        }
+
+        .rainbow-bar a {
+            display: inline-block;
+            width: 138px;
+            height: 58px;
+            background-color: #aa4a4a9a;
+            text-align: center;
+            line-height: 58px;
+            text-indent: 0;
+            color: #FFF;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .rainbow-bar .bg1 {
+            background-color: #ff00009a;
+        }
+        .rainbow-bar .bg2 {
+            background-color: #ff7f00;
+        }
+        .rainbow-bar .bg3 {
+            background-color: #ffff00;
+        }
+        .rainbow-bar .bg4 {
+            background-color: #00ff00;
+        }
+        .rainbow-bar .bg5 {
+            background-color: #0000ff;
+        }
+        .rainbow-bar .bg1:hover {
+            background-color: #ff0000;
+        }
+        .rainbow-bar .bg2:hover {
+            background-color: #998067;
+        }
+        .rainbow-bar .bg3:hover {
+            background-color: #cccc80;
+        }
+        .rainbow-bar .bg4:hover {
+            background-color: #3b703b;
+        }
+        .rainbow-bar .bg5:hover {
+            background-color: #5d5daf;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">手机 电话卡</a>
+    <a href="#">电视 盒子</a>
+    <a href="#">笔记本 平板</a>
+    <a href="#">出行 穿戴</a>
+    <a href="#">智能 路由器</a>
+    <br>
+    <div class="rainbow-bar">
+        <a href="#" class="bg1">五彩导航</a>
+        <a href="#" class="bg2">五彩导航</a>
+        <a href="#" class="bg3">五彩导航</a>
+        <a href="#" class="bg4">五彩导航</a>
+        <a href="#" class="bg5">五彩导航</a>
+    </div>
+
+</body>
